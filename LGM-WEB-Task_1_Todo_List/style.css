@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    background-image: url("desk_background.jpg");
+    background-size: cover;
+}
+
+#header {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(228, 106, 106);
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(58, 58, 58);
+}
+
+#taskBar {
+    background-color: aqua;
+    margin: auto;
+    width: 50%;
+    display: flex;
+}
+
+#textInput {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+#addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    color:rgb(232, 244, 255);
+    background-color: #333;
+}
+
+#wrapper {
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 55%;
+    min-height: 500px;
+    padding: 10px;
+}
+
+#tasks {
+    /* margin: auto; */
+    width: 100%;
+    border: 0;
+    /* border-collapse: collapse; */
+}
+
+tr {
+    border: 0;
+    background-color: rgb(232, 244, 255);
+}
+
+td {
+    border-radius: 15px;
+    user-select: none;
+    
+}
+
+.checked_task {
+    background-color: rgb(129, 207, 129);
+    padding-left: 25px;
+}
+
+.unchecked_task {
+    padding-left: 25px;
+}
+
+.close {
+    width: 10%;
+    text-align: center;
+    color: rgb(200, 0, 0);
+    padding: 5px 10px 5px 10px;
+    background-color: #999;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: rgb(200, 0, 0);
+    color: rgb(232, 244, 255);
+}
